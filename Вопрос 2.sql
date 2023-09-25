@@ -1,0 +1,1 @@
+SELECT p.Name, c.Name FROM Products p LEFT JOIN CategoriesProducts cp ON p.Id = cp.ProductId LEFT JOIN Categories c ON cp.CategoryId = c.Id 
